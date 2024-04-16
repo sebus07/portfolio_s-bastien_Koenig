@@ -28,3 +28,5 @@ Ce projet m’a permis de mettre en pratique mes compétences en développement 
 <img src="/assets/planty.png" alt="site planty">
 
 >Accedez au site ici , <a href="https://planty.presta-modulo.fr/">Planty</a> 
+
+<a class="back-link" href="/work/"><Icon icon="arrow-left" /> Retour</a>

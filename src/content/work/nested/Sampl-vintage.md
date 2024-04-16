@@ -29,4 +29,6 @@ j'ai vérifié attentivement la conformité du site par rapport aux wireframes e
 
 <img src="/assets/vintage1.png" alt="site motaphoto">
 
->Accedez au site ici , <a href="http://showroom.sebastien-koenig.fr/">Sampl vintage</a> 
+>Accedez au site ici , <a href="http://showroom.sebastien-koenig.fr/">Sampl vintage</a>
+ 
+<a class="back-link" href="/work/"><Icon icon="arrow-left" /> Retour</a>

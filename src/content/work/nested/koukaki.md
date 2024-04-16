@@ -24,3 +24,5 @@ Ainsi, Koukaki est bien plus qu'un simple site web : c'est le fruit d'un travail
 
 
 >Accedez au site ici , <a href="https://orange.presta-modulo.fr/">Koukaki</a> 
+
+<a class="back-link" href="/work/"><Icon icon="arrow-left" /> Retour</a>

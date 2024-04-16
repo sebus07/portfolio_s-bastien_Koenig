@@ -22,3 +22,5 @@ Ce plugin, conçu avec soin, permet l'importation fluide de photos, tout en int�
 Grâce à ce projet, j'ai pu explorer et maîtriser les rouages complexes de WordPress, tout en laissant libre cours à ma créativité et à mon expertise technique. C'est une expérience que je suis fier de partager, et j'espère que vous apprécierez autant que moi l'exploration de ce monde numérique riche en possibilités. 
 
 >Accedez au site ici , <a href="#">motaphoto</a> 
+
+<a class="back-link" href="/work/"><Icon icon="arrow-left" /> Retour</a>

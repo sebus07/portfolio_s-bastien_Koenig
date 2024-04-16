@@ -24,3 +24,5 @@ Découvrez une sélection de mes projets de formation et personnels, tous conçu
 
 >Accedez au site ici , <a href="https://portfolio-astro-onivvf1iv-sebuses-projects.vercel.app/">portfolio Astro</a> 
 
+<a class="back-link" href="/work/"><Icon icon="arrow-left" /> Retour</a>
+
