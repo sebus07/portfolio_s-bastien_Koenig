@@ -1,0 +1,152 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+import ContactCTA from "../components/ContactCTA.astro";
+import Hero from "../components/Hero.astro";
+---
+
+<BaseLayout
+	title="About | Jeanine White"
+	description="About Jeanine White Lorem Ipsum"
+>
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="A Propos"
+				tagline="Lisez ci-dessous pour en savoir plus sur moi et mon parcours.."
+			>
+				<img
+					width="1553"
+					height="873"
+					src="/assets/at-work1.jpg"
+					alt="Jeanine White at work with a colleague"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Mon parcours</h2>
+				<div class="content">
+					<h4>
+						Je suis une personne autodidacte, ayant toujours suivi
+						mes passions au rythme de ma vie et de mes envies.
+					</h4>
+					<br />
+					<br />
+					<p>
+						Mon parcours atypique a débuté avec un apprentissage en
+						pâtisserie, où j'ai décroché mon diplôme sans
+						difficulté.<br /> À seulement 21 ans, j'ai ouvert ma première
+						pâtisserie, un projet qui en a précédé bien d'autres. Après
+						un divorce difficile qui m'a fait tout perdre, j'ai dû réorienter
+						ma vie professionnelle.<br />
+
+						<br />
+						J'ai alors occupé différents postes, de concierge à adjoint
+						au courrier dans la fonction publique, en passant par magasinier
+						et distributeur de journaux. Mais ce n'était que le début
+						d'une aventure mouvementée.<br />
+
+						Finalement, j'ai décidé de me lancer dans le monde du
+						commerce en ligne. Pendant 11 ans, j'ai consacré mon
+						énergie à développer mon entreprise sur internet,
+						explorant diverses plateformes telles qu'eBay, la Fnac,
+						Cdiscount et Amazon.<br />
+						<br />
+						Un tournant s'est produit lorsque des soucis de santé m'ont
+						amené à repenser ma carrière. J'ai alors vendu mon entreprise
+						et me suis progressivement tourné vers le développement web.
+						C'est là que ma passion a trouvé sa véritable expression.
+						J'ai commencé par me plonger dans le back-end, mais c'est
+						le front-end qui a captivé mon attention. Aujourd'hui, je
+						me consacre pleinement au développement web, avec une préférence
+						marquée pour les technologies telles que React, Next.js et
+						Astro, que je découvre avec enthousiasme jour après jour.<br
+						/>
+						<br />
+						Sur ce site, vous découvrirez mes réalisations, mes projets
+						passés et présents, ainsi que mon évolution dans le domaine
+						du développement web. Je suis impatient de partager cette
+						aventure avec vous et de contribuer, à ma manière, à la création
+						de solutions innovantes et inspirantes. Bienvenue dans mon
+						univers !
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Diplôme</h2>
+				<div class="content">
+					<p>Diplôme de niveau V en développement web en cours.</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Skills</h2>
+				<div class="content">
+					<p>
+						Autonome et dynamique j'ai le sens des responsabilités
+						et apprécie le travail d'équipe .
+					</p>
+				</div>
+			</section>
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
