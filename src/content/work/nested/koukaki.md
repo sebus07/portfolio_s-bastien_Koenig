@@ -10,7 +10,7 @@ tags:
   - Branding
 ---
 
-## Le projet Koukaki est un exemple concret de mon expertise en développement web. 
+> Le projet Koukaki est un exemple concret de mon expertise en développement web. 
 
 Réalisé sous WordPress, ce site web intègre habilement des effets JavaScript pour une expérience utilisateur dynamique, ainsi que des styles CSS et SCSS personnalisés pour une esthétique unique.
 

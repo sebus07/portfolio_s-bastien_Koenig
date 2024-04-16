@@ -6,7 +6,8 @@ img_alt: image du site sampl vintage
 description: |
  J’ai développé cette plateforme entièrement sous WordPress, en suivant un plan de site préétabli, sans recourir au code.
 tags:
-  - wordpress
+  - Wordpress
+  - Elementor
  
 ---
 Personnalisation du Thème :

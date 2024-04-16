@@ -6,14 +6,14 @@ img_alt: site portfolio koenig sebastien
 description: |
   Mon portfolio a été conçu et développé avec Astro.
 tags:
-  - astro
+  - Astro
   - Dev
-  - portfolio
+  - Portfolio
 ---
 
 Mon portfolio a été conçu et développé avec Astro, une plateforme de développement web moderne axée sur la performance et la simplicité. 
 
-## Le thème utilisé a été personnalisé pour correspondre à mon style et mettre en valeur mes projets de manière professionnelle. 
+<h4>Le thème utilisé a été personnalisé pour correspondre à mon style et mettre en valeur mes projets de manière professionnelle. </h4>
 
 Le déploiement a été effectué sur Vercel, une plateforme d'hébergement qui garantit une disponibilité maximale et une expérience utilisateur fluide.
 
