@@ -14,10 +14,6 @@ Bienvenue sur mon portfolio en ligne ! Ce site a été créé à l'aide du thèm
 - Intégration de mes compétences et technologies maîtrisées.
 - Contactez-moi via le formulaire de contact.
 
-## Accès au Site
-
-Mon portfolio est disponible en ligne à l'adresse suivante : [portfolio-sebastien-koenig.fr](www.portfolio-sebastien-koenig.fr)
-
 
 ## Comment Déployer
 
