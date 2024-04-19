@@ -1,7 +1,5 @@
 # Portfolio de Sébastien Koenig
 
-(/reeadmee.png)
-
 Bienvenue sur mon portfolio en ligne ! Ce site a été créé à l'aide du thème officiel Astro et déployé sur Vercel pour une accessibilité maximale.
 
 ## Technologies Utilisées
@@ -20,9 +18,6 @@ Bienvenue sur mon portfolio en ligne ! Ce site a été créé à l'aide du thèm
 
 Mon portfolio est disponible en ligne à l'adresse suivante : [portfolio-sebastien-koenig.fr](https://portfolio-sebastien-koenig.fr)
 
-## Capture d'Écran
-
-![Insérez une capture d'écran de votre site ici](/reeadmee.png)
 
 ## Comment Déployer
 
